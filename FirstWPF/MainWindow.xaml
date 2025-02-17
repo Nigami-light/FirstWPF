@@ -7,11 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="800">
     <Grid>
-        <StackPanel HorizontalAlignment="Left" Background="#9BC58B" Width="155">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="155" />
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <StackPanel Background="#9BC58B" Width="155">
             <Button x:Name="btn_1" Content="1 Задание" Margin="10" Background="#476D39" Width="105" Foreground="#FFEAEAEA" Click="btn_1_Click"/>
             <Button x:Name="btn_2" Content="2 Задание" Margin="10" Background="#476D39" Width="105" Foreground="#FFEAEAEA" Click="btn_2_Click"/>
         </StackPanel>
 
-        <Frame x:Name="myframe" Width="645" HorizontalAlignment="Right" NavigationUIVisibility="Hidden"/>
+        <Frame Grid.Column="1" x:Name="myframe" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

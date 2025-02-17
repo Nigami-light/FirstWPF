@@ -20,9 +20,9 @@ namespace FirstWPF
         private Random rnd;
         private static readonly string[] ImagePaths = 
         {
-            "C:/Users/root/source/repos/FirstWPF/FirstWPF/Images/Frame 1.jpg",
-            "C:/Users/root/source/repos/FirstWPF/FirstWPF/Images/Frame 2.jpg",
-            "C:/Users/root/source/repos/FirstWPF/FirstWPF/Images/Frame 3.jpg"
+            "C:/Users/Mihail/source/repos/FirstWPF/FirstWPF/Images/Frame 1.jpg",
+            "C:/Users/Mihail/source/repos/FirstWPF/FirstWPF/Images/Frame 2.jpg",
+            "C:/Users/Mihail/source/repos/FirstWPF/FirstWPF/Images/Frame 3.jpg"
         };
 
         public FirstPage()
